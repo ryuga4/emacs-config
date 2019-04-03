@@ -17,8 +17,9 @@
  '(custom-enabled-themes (quote (tango-dark)))
  '(package-selected-packages
    (quote
-    (sublimity ido-vertical-mode ido-yes-or-no ido-completing-read+ smex helm)))
- '(winner-mode t))
+    (evil sublimity ido-vertical-mode ido-yes-or-no ido-completing-read+ smex helm)))
+ '(winner-mode t)
+ )
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -101,8 +102,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; zoom
 
 
-(custom-set-variables
- '(zoom-mode t))
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; eyebrowse
