@@ -1,0 +1,39 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/me/Projekty/Haskell/gtksandbox/" . "app/")
+ ("/home/me/Projekty/Haskell/" . "gtksandbox/")
+ ("/home/me/Projekty/" . "Haskell/")
+ ("/home/me/" . "Projekty/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/me/.emacs.d/"
+ "/home/me/Projekty/Haskell/gtksandbox/app/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "Main.hs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/me/.emacs.d/" (23716 64703 898126 224000) "auto-save-list/" "awesome-tab/" "./" "../" "ido.last" "evil/" "init.el" "ido.last~" "init.el~" "elpa/")
+
+ ("/home/me/Projekty/Haskell/gtksandbox/app/" (23715 50471 98453 791000) "./" "../" "Main.hs")
+
+ ("/home/me/Projekty/Haskell/gtksandbox/" (23715 50528 327819 161000) "calculator.glade" "Setup.hs" "README.md" "LICENSE" "./" "../" ".git/" "package.yaml" ".gitignore" "calculator.glade~" "src/" "test.ui" "stack.yaml" ".stack-work/" "gtksandbox.cabal" "app/" "ChangeLog.md" "test/")
+
+ ("/home/me/Projekty/Haskell/" (23715 42585 74296 967000) "sandbox/" "ob/" "./" "../" "algebra/" "gtksandbox/" "trunk/" "wxsandbox/")
+
+ ("/home/me/Projekty/" (23654 10990 493413 537000) "./" "../" "Haskell/" "CatOrNotApp/" "mealhint/" "Prolog/")
+
+ ("/home/me/" (23716 63780 442793 995000) "Documents/" ".gtkrc-xfce" ".fontconfig/" "bin/" ".java/" ".dotnet/" "siema" ".ghc/" ".thunderbird/" "traceroute.capture.pcapng" ".nix-channels" ".vscode/" ".bash_logout" ".sudo_as_admin_successful" "dns.capture.pcapng" "AndroidStudioProjects/" ".local/" ".AndroidStudio3.2/" "idea-IU-183.4886.37/" "Videos/" ".stack/" ".gitconfig" ".android/" "Desktop/" "./" "JetBrains Rider-2018.3/" ".wget-hsts" ".pki/" ".swipl-dir-history/" ".xsession-errors" "../" ".IntelliJIdea2018.3/" ".nix-profile/" "Music/" ".aptitude/" "udp.capture.pcapng" ".ICEauthority" ".cinnamon/" ".bashrc" ".gconf/" ".lein/" "packages-microsoft-prod.deb" ".mono/" ".config/" "ssh.capture.pcapng" ".xsession-errors.old" "RiderProjects/" ".xpce/" ".m2/" ".Xauthority" ".gnupg/" "Projekty/" "Public/" ".ssh/" "android-studio/" ".nix-defexpr/" ".cache/" ".profile" "reflex-platform/" ".emacs.d/" "Templates/" ".viminfo" ".gradle/" ".gnome/" ".Rider2018.3/" "intero-20181224.1911.backup/" "tracepath.capture.pcapng" ".mozilla/" "Android/" "Pictures/" ".bash_history" ".vsts/" "Downloads/" ".dbus/" ".gtkrc-2.0")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
