@@ -15,11 +15,23 @@
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
  '(custom-enabled-themes (quote (tango-dark)))
+ '(dante-project-root nil)
+ '(haskell-process-path-ghci "ghci")
+ '(intero-package-version "0.1.39")
  '(package-selected-packages
    (quote
-    (evil sublimity ido-vertical-mode ido-yes-or-no ido-completing-read+ smex helm)))
- '(winner-mode t)
- )
+    (cider browse-kill-ring evil-nerd-commenter indent-guide drag-stuff company-ghc exwm nixos-options json-mode nix-mode dante flycheck-haskell yaml-mode intero haskell-mode evil sublimity ido-vertical-mode ido-yes-or-no ido-completing-read+ smex helm)))
+ '(safe-local-variable-values
+   (quote
+    ((haskell-process-type quote cabal-new-repl)
+     (dante-repl-command-line "cabal" "new-repl" "frontend")
+     (dante-repl-command-line "cabal new-repl frontend")
+     (dante-repl-command-line . "cabal new-repl frontend")
+     (dante-repl-command-line "nix-shell" "-A" "shells.ghc" "--run" "cabal new-repl frontend")
+     (dante-repl-command-line "nix-shell" "-A" "shells.ghc" "--arg" "withHoogle" "true" "--run" "cabal new-repl" "../default.nix")
+     (dante-repl-command-line quote
+			      ("nix-shell" "-A" "shells.ghc" "--arg" "withHoogle" "true" "--run" "cabal new-repl" "../default.nix")))))
+ '(winner-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -35,7 +47,10 @@
 
 
 
-
+(eval-when-compile
+  ;; Following line is not needed if use-package.el is in ~/.emacs.d
+  (add-to-list 'load-path "<path where use-package is installed>")
+  (require 'use-package))
 
 
 
@@ -45,12 +60,20 @@
 (evil-mode 1)
 
 
-
-
+  (evil-define-key 'normal neotree-mode-map (kbd "TAB") 'neotree-enter)
+    (evil-define-key 'normal neotree-mode-map (kbd "SPC") 'neotree-quick-look)
+    (evil-define-key 'normal neotree-mode-map (kbd "q") 'neotree-hide)
+    (evil-define-key 'normal neotree-mode-map (kbd "RET") 'neotree-enter)
+    (evil-define-key 'normal neotree-mode-map (kbd "g") 'neotree-refresh)
+    (evil-define-key 'normal neotree-mode-map (kbd "n") 'neotree-next-line)
+    (evil-define-key 'normal neotree-mode-map (kbd "p") 'neotree-previous-line)
+    (evil-define-key 'normal neotree-mode-map (kbd "A") 'neotree-stretch-toggle)
+    (evil-define-key 'normal neotree-mode-map (kbd "H") 'neotree-hidden-file-toggle)
+(evilnc-default-hotkeys)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ido
 
-;;(require 'ido-yes-or-no)
-;;(ido-yes-or-no-mode 1)
+(require 'ido-yes-or-no)
+(ido-yes-or-no-mode 1)
 (require 'smex) 
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
@@ -65,6 +88,8 @@
 
 (require 'ido-completing-read+)
 (ido-ubiquitous-mode 1)
+
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; awesome-tab
 ;;(add-to-list 'load-path "~/.emacs.d/awesome-tab")
@@ -94,9 +119,8 @@
 
 
 
-(setq sublimity-scroll-weight 10
-      sublimity-scroll-drift-length 5)
-
+(setq sublimity-scroll-weight 100000
+      sublimity-scroll-drift-length 1000)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; zoom
@@ -108,6 +132,57 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; eyebrowse
 
 (eyebrowse-mode t)
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; haskell
+
+;(use-package dante
+;  :ensure t
+;  :after haskell-mode
+;  :commands 'dante-mode
+;  :init
+;  (add-hook 'haskell-mode-hook 'flycheck-mode)
+;  ;; OR:
+;  ;; (add-hook 'haskell-mode-hook 'flymake-mode)
+;  (add-hook 'haskell-mode-hook 'dante-mode)
+;  )
+;(setq flymake-no-changes-timeout nil)
+;(setq flymake-start-syntax-check-on-newline nil)
+;(setq flycheck-check-syntax-automatically '(save mode-enabled))
+;(require 'haskell-interactive-mode)
+;(require 'haskell-process)
+;(add-hook 'haskell-mode-hook 'interactive-haskell-mode)
+
+;(auto-save-visited-mode 1)
+;(setq auto-save-visited-interval 1)
+
+;(add-hook 'dante-mode-hook
+;   '(lambda () (flycheck-add-next-checker 'haskell-dante
+;                '(warning . haskell-hlint))))
+
+
+(intero-global-mode 1)
+
+
+
+
+
+
+
+
+(drag-stuff-global-mode 1)
+(drag-stuff-define-keys)
+(autoload 'artist-mode "artist" "Enter artist-mode" t)
+
+
+(require 'browse-kill-ring)
+
+
+
+
+
 
 (global-highlight-parentheses-mode)
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
@@ -123,10 +198,7 @@
 (toggle-scroll-bar -1) 
 (tool-bar-mode -1)
 (global-linum-mode 1)
-
-
-
-
+(setq neo-autorefresh nil)
 
 
 

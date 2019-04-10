@@ -1,0 +1,5 @@
+chromium-browser
+cd Projekty/Haskell/obsandbox/
+nix-shell -A shells.ghc --arg withHoogle true
+nix-shell -A shells.ghc --arg withHoogle true
+exit

@@ -2,8 +2,15 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/me/.emacs.d/elpa/" . "haskell-mode-16.1/")
+ ("/home/me/Projekty/Haskell/my-project/" . "common/")
+ ("/home/me/Projekty/Haskell/obsandbox/frontend/" . "src-bin/")
+ ("/home/me/.emacs.d/" . "elpa/")
+ ("/home/me/Projekty/Haskell/obsandbox/" . "frontend/")
+ ("/home/me/Projekty/Haskell/ob/" . "frontend/")
+ ("/home/me/Projekty/Haskell/ob/frontend/" . "src/")
  ("/home/me/Projekty/Haskell/gtksandbox/" . "app/")
- ("/home/me/Projekty/Haskell/" . "gtksandbox/")
+ ("/home/me/Projekty/Haskell/" . "men/")
  ("/home/me/Projekty/" . "Haskell/")
  ("/home/me/" . "Projekty/")
 )
@@ -11,28 +18,98 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/me/.emacs.d/"
+ "/home/me/"
+ "/home/me/.emacs.d/elpa/haskell-mode-16.1/"
+ "/home/me/Projekty/Haskell/my-project/frontend/"
+ "/home/me/Projekty/Haskell/my-project/common/src/"
+ "/home/me/Projekty/Haskell/my-project/"
+ "/home/me/Projekty/Haskell/obsandbox/frontend/"
+ "/home/me/Projekty/Haskell/obsandbox/backend/"
+ "/home/me/Projekty/Haskell/ob/frontend/"
  "/home/me/Projekty/Haskell/gtksandbox/app/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "artist.txt"
+ "NEWS"
+ ".dir-locals.el"
+ "Common.hs"
+ "default.nix"
+ ".dir-colcals.el"
  "Main.hs"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/me/.emacs.d/" (23717 3885 195427 849000) "auto-save-list/" "./" "url/" "../" ".git/" "ido.last" "init.el" "ido.last~" "init.el~" "elpa/")
+ ("/home/me/Projekty/Haskell/men/" (23725 805 882603 494000) "stack.yaml~" "package.yaml~" "Setup.hs" "README.md" "LICENSE" "./" "../" "men.cabal" ".git/" "package.yaml" ".gitignore" "src/" "stack.yaml" ".stack-work/" "app/" "ChangeLog.md" "test/")
 
- ("/home/me/" (23717 3165 436660 74000) "Documents/" ".gtkrc-xfce" ".fontconfig/" "bin/" ".java/" ".dotnet/" "siema" ".ghc/" ".thunderbird/" "traceroute.capture.pcapng" ".nix-channels" ".vscode/" ".bash_logout" ".sudo_as_admin_successful" "dns.capture.pcapng" "AndroidStudioProjects/" ".local/" ".AndroidStudio3.2/" "idea-IU-183.4886.37/" "Videos/" ".stack/" ".gitconfig" ".android/" "Desktop/" "./" "JetBrains Rider-2018.3/" ".wget-hsts" ".pki/" ".swipl-dir-history/" ".xsession-errors" "../" ".IntelliJIdea2018.3/" ".nix-profile/" ".smex-items" "Music/" ".aptitude/" "udp.capture.pcapng" ".ICEauthority" ".cinnamon/" ".bashrc" ".gconf/" ".lein/" "packages-microsoft-prod.deb" ".mono/" ".config/" "ssh.capture.pcapng" ".xsession-errors.old" "RiderProjects/" ".xpce/" ".m2/" ".Xauthority" ".gnupg/" "Projekty/" "Public/" ".ssh/" "android-studio/" ".nix-defexpr/" ".cache/" ".profile" "reflex-platform/" ".emacs.d/" "Templates/" ".viminfo" ".gradle/" ".gnome/" ".Rider2018.3/" "intero-20181224.1911.backup/" "tracepath.capture.pcapng" ".mozilla/" "Android/" "Pictures/" ".bash_history" ".vsts/" "Downloads/" ".dbus/" ".gtkrc-2.0")
+ ("/home/me/" (23725 3311 138094 692000) "Documents/" ".gtkrc-xfce" ".fontconfig/" "bin/" ".java/" ".dotnet/" "siema" ".ghc/" ".thunderbird/" "traceroute.capture.pcapng" ".nix-channels" ".vscode/" ".bash_logout" ".sudo_as_admin_successful" "dns.capture.pcapng" ".xinitrc" "AndroidStudioProjects/" ".local/" ".AndroidStudio3.2/" "idea-IU-183.4886.37/" "Videos/" ".stack/" ".gitconfig" ".android/" "Desktop/" "./" "JetBrains Rider-2018.3/" ".wget-hsts" ".pki/" ".swipl-dir-history/" ".xsession-errors" "../" ".IntelliJIdea2018.3/" ".nix-profile/" ".smex-items" "Music/" ".aptitude/" "udp.capture.pcapng" ".ICEauthority" ".cinnamon/" ".bashrc" ".gconf/" ".lein/" "packages-microsoft-prod.deb" ".mono/" ".config/" "ssh.capture.pcapng" ".xsession-errors.old" "RiderProjects/" ".xpce/" ".m2/" "artist.txt~" ".Xauthority" ".gnupg/" "Projekty/" "Public/" ".ssh/" "android-studio/" ".nix-defexpr/" ".cache/" ".profile" "reflex-platform/" ".cabal/" ".emacs.d/" "Templates/" ".viminfo" ".gradle/" ".gnome/" ".Rider2018.3/" "intero-20181224.1911.backup/" "tracepath.capture.pcapng" ".mozilla/" "Android/" "Pictures/" ".bash_history" "artist.txt" ".vsts/" "Downloads/" ".dmrc" ".dbus/" ".gtkrc-2.0")
 
- ("/home/me/Projekty/Haskell/gtksandbox/app/" (23715 50471 98453 791000) "./" "../" "Main.hs")
+ ("/home/me/.emacs.d/" (23724 57907 797343 460000) "session.102107b30af5099d1015547489666123500000009450052" "session.1024295093130e4891155439055195057900000268580057" "#ido.last#" "auto-save-list/" "session.10836e46439c87bbdf155482607187719700000009310052" "eshell/" "session.104fa8a499a6c556cd155441660777801300000009260065" "session.10b8e77e764fc8c3a2155466370252895500000009290055" "./" "url/" "../" ".git/" "ido.last" "session.108b633f0e3518311c155449570270675500000009270052" "session.10729b4bd79120d0d3155432153224459800000009290076" "init.el" "ido.last~" "init.el~" "elpa/")
 
- ("/home/me/Projekty/Haskell/gtksandbox/" (23715 50528 327819 161000) "calculator.glade" "Setup.hs" "README.md" "LICENSE" "./" "../" ".git/" "package.yaml" ".gitignore" "calculator.glade~" "src/" "test.ui" "stack.yaml" ".stack-work/" "gtksandbox.cabal" "app/" "ChangeLog.md" "test/")
+ ("/home/me/Projekty/Haskell/sandbox/" (23723 38545 543653 512000) "stack.yaml~" "package.yaml~" "Setup.hs" "README.md" "sandbox.cabal" "LICENSE" "./" "../" "package.yaml" ".gitignore" "src/" "stack.yaml" ".stack-work/" "app/" "ChangeLog.md" "test/")
 
- ("/home/me/Projekty/Haskell/" (23715 42585 74296 967000) "sandbox/" "ob/" "./" "../" "algebra/" "gtksandbox/" "trunk/" "wxsandbox/")
+ ("/home/me/.emacs.d/elpa/" (23719 50829 438474 594000) "xelb-0.17.signed" "dimmer-0.3.0/" "rainbow-delimiters-2.1.3/" "epl-0.9/" "use-package-2.4/" "neotree-0.5.2/" "async-1.9.3/" "ido-completing-read+-4.12/" "dante-1.5/" "ido-vertical-mode-0.1.6/" "json-mode-1.7.0/" "browse-kill-ring-2.0.0/" "pkg-info-0.6/" "lcr-1.1/" "queue-0.2.signed" "ghc-5.8.0.0/" "archives/" "helm-core-3.1/" "yaml-mode-0.0.13/" "eyebrowse-0.7.7/" "drag-stuff-0.3.0/" "./" "clojure-mode-5.10.0/" "sesman-0.3.4/" "f-0.20.0/" "../" "company-0.9.9/" "helm-3.1/" "highlight-parentheses-1.1.0/" "seq-2.20.signed" "beacon-1.3.4/" "goto-chg-1.7.3/" "ido-yes-or-no-1.4/" "popup-0.5.3/" "json-snatcher-1.0.0/" "seq-2.20/" "s-1.12.0/" "flycheck-31/" "gnupg/" "dash-2.15.0/" "cider-0.21.0/" "exwm-0.22.1/" "intero-0.1.37/" "exwm-0.22.1.signed" "company-ghc-1.1.0/" "undo-tree-0.6.5/" "evil-1.2.14/" "anzu-0.62/" "evil-nerd-commenter-3.3.6/" "memoize-1.1/" "undo-tree-0.6.5.signed" "bind-key-2.4/" "haskell-mode-16.1/" "queue-0.2/" "nix-mode-1.3.0/" "sublimity-20160629/" "flycheck-haskell-0.8/" "spinner-1.7.3/" "indent-guide-20160630/" "xelb-0.17/" "json-reformat-0.0.6/" "smex-3.0/" "spinner-1.7.3.signed" "nixos-options-0.0.1/")
 
- ("/home/me/Projekty/" (23654 10990 493413 537000) "./" "../" "Haskell/" "CatOrNotApp/" "mealhint/" "Prolog/")
+ ("/home/me/Projekty/Haskell/men/src/" (23722 18419 978116 623000) "Lib.hs" "./" "../" "Lib.hs~")
+
+ ("/home/me/Projekty/" (23719 50851 418913 371000) "./" "../" "Clojure/" "Haskell/" "C/" "CatOrNotApp/" "mealhint/" "Prolog/")
+
+ ("/home/me/.emacs.d/elpa/haskell-mode-16.1/" (23718 28303 604779 757000) "haskell-decl-scan.el" "haskell-menu.el" "haskell-navigate-imports.el" "haskell-compile.el" "haskell.el" "ghc-core.el" "haskell-c2hs.elc" "haskell-compat.elc" "haskell-cabal.el" "haskell-lexeme.elc" "haskell-utils.el" "haskell-hoogle.elc" "w3m-haddock.elc" "haskell-debug.elc" "logo.svg" "haskell-compile.elc" "haskell-align-imports.elc" "w3m-haddock.el" "haskell-c2hs.el" "haskell-decl-scan.elc" "NEWS" "haskell-navigate-imports.elc" "haskell-repl.el" "ghci-script-mode.elc" "haskell-unicode-input-method.el" "dir" "./" "haskell-doc.el" "haskell-process.elc" "haskell-ghc-support.el" "haskell-collapse.elc" "haskell-string.elc" "haskell-collapse.el" "haskell-completions.el" "haskell-mode.elc" "haskell-process.el~" "haskell-doc.elc" "haskell-load.el" "haskell-modules.elc" "../" "haskell-commands.elc" "haskell.elc" "haskell-sort-imports.elc" "haskell-mode.el" "haskell-session.el" "haskell-presentation-mode.el" "haskell-commands.el" "haskell-font-lock.elc" "haskell-compat.el" "haskell-utils.elc" "haskell-complete-module.elc" "haskell-move-nested.elc" "haskell-load.elc" "haskell-completions.elc" "haskell-indentation.el" "haskell-sandbox.el" "haskell-debug.el" "ghc-core.elc" "inf-haskell.el" "inf-haskell.elc" "haskell-menu.elc" "haskell-repl.elc" "haskell-session.elc" "haskell-sandbox.elc" "haskell-lexeme.el" "haskell-interactive-mode.elc" "haskell-unicode-input-method.elc" "haskell-sort-imports.el" "haskell-customize.el" "haskell-move-nested.el" "haskell-ghc-support.elc" "haskell-modules.el" "ghci-script-mode.el" "haskell-cabal.elc" "haskell-presentation-mode.elc" "haskell-mode.info" "haskell-hoogle.el" "haskell-customize.elc" "haskell-indentation.elc" "haskell-interactive-mode.el" "haskell-process.el" "haskell-mode-pkg.el" "haskell-complete-module.el" "haskell-indent.elc" "haskell-font-lock.el" "haskell-string.el" "haskell-align-imports.el" "highlight-uses-mode.elc" "haskell-mode-autoloads.el" "highlight-uses-mode.el" "haskell-indent.el")
+
+ ("/home/me/Projekty/Haskell/" (23719 35521 226203 710000) "sandbox/" "reflex-dom-inbits/" "./" "dupa/" "../" "algebra/" "sandboxc/" "reflex-sandbox/" "gtksandbox/" "dirs/" "trunk/" "men/" "wxsandbox/")
+
+ ("/home/me/Projekty/Haskell/reflex-sandbox/" (23718 31219 967371 142000) "stack.yaml~" "package.yaml~" "Setup.hs" "README.md" "reflex-sandbox.cabal" "LICENSE" "./" "../" "package.yaml" ".gitignore" "src/" "default.nix" "stack.yaml" ".stack-work/" "reflex-platform/" "app/" "ChangeLog.md" "test/")
+
+ ("/home/me/Projekty/Haskell/my-project/" (23718 28546 645883 653000) "default.nix~" "cabal-ghcjs.project" "backend/" ".ghc.environment.x86_64-linux-8.4.3" "./" "../" ".git/" "cabal.project" ".gitmodules" "default.nix" "reflex-platform/")
+
+ ("/home/me/Projekty/Haskell/my-project/frontend/src/" (23718 27951 572107 710000) "./" "../" "Main.hs" "Main.hs~")
+
+ ("/home/me/Projekty/Haskell/my-project/frontend/" (23718 27603 613631 831000) ".dir-locals.el" "frontend.cabal" ".dir-locals.el~" "Setup.hs" "CHANGELOG.md" "LICENSE" "dist/" "./" "../" "src/" "frontend.cabal~")
+
+ ("/home/me/Projekty/Haskell/my-project/common/src/" (23718 16280 415628 677000) "Common.hs" "./" "../")
+
+ ("/home/me/Projekty/Haskell/my-project/common/" (23718 16185 709412 293000) "Setup.hs" "CHANGELOG.md" "LICENSE" "./" "../" "src/" "common.cabal")
+
+ ("/home/me/Projekty/Haskell/my-project/backend/" (23718 16259 755145 157000) "backend.cabal" "Setup.hs" "CHANGELOG.md" "LICENSE" "./" "../" "src/" "backend.cabal~")
+
+ ("/home/me/Projekty/Haskell/obsandbox/" (23718 13596 560932 222000) "static/" ".obelisk/" "backend/" "dist/" "./" "frontend/" "../" "ghcid-output.txt" "cabal.project" ".gitignore" "config/" "default.nix" "common/" "dist-newstyle/")
+
+ ("/home/me/Projekty/Haskell/obsandbox/frontend/src/" (23718 13564 84171 699000) "Frontend.hs" "Frontend.hs~" "./" "../")
+
+ ("/home/me/Projekty/Haskell/sandboxc/src/" (23718 13473 626053 716000) "./" "../" "Main.hs" "Main.hs~")
+
+ ("/home/me/Projekty/Haskell/obsandbox/frontend/" (23718 13398 752301 23000) ".dir-locals.el" "frontend.cabal" ".dir-locals.el~" "./" "../" "src-bin/" "src/")
+
+ ("/home/me/Projekty/Haskell/obsandbox/frontend/src-bin/" (23718 9180 377273 446000) "main.hs" "./" "../")
+
+ ("/home/me/Projekty/Haskell/sandboxc/" (23718 11419 950021 962000) "Setup.hs" "CHANGELOG.md" "LICENSE" "dist/" "./" "../" "src/" "sandboxc.cabal")
+
+ ("/home/me/.emacs.d/auto-save-list/" (23718 5633 252638 953000) "./" "../")
+
+ ("/home/me/Projekty/Haskell/obsandbox/backend/" (23718 4813 349889 894000) ".dir-locals.el" "static/" "backend.cabal" "frontendJs/" "dist/" "./" "../" "src-bin/" "src/" "frontend.jsexe")
+
+ ("/home/me/Projekty/Haskell/obsandbox/backend/src/" (23718 5071 171782 811000) "Backend.hs~" "./" "Backend.hs" "../")
+
+ ("/home/me/Projekty/Haskell/gtksandbox/app/" (23718 1976 411975 969000) "./" "../" "Main.hs")
+
+ ("/home/me/.emacs.d/elpa/nixos-options-0.0.1/" (23718 1562 781103 819000) "./" "../" "nixos-options.el" "nixos-options-autoloads.el" "nixos-options-pkg.el" "nixos-options.elc")
+
+ ("/home/me/Projekty/Haskell/ob/frontend/" (23718 869 441057 596000) ".dir-locals.el" "frontend.cabal" ".dir-locals.el~" "./" "../" "src-bin/" "src/")
+
+ ("/home/me/.emacs.d/elpa/dante-1.5/" (23717 64695 978167 813000) "dante.elc" "./" "../" "dante-autoloads.el" "dante.el" "dante-pkg.el")
+
+ ("/home/me/Projekty/Haskell/ob/dist-newstyle/" (23718 35 275279 361000) "tmp/" "build/" "./" "../" "packagedb/" "cache/")
+
+ ("/home/me/Projekty/Haskell/ob/" (23718 46 195606 92000) "static/" ".obelisk/" "backend/" ".ghc.environment.x86_64-linux-8.4.3" "./" "frontend/" "../" "ghcid-output.txt" "cabal.project" ".gitignore" "config/" "default.nix" "common/" "dist-newstyle/")
+
+ ("/home/me/Projekty/Haskell/ob/frontend/src/" (23717 63769 791523 480000) "Frontend.hs" "./" "../")
+
+ ("/home/" (23586 49566 739852 185000) "me/" "./" "../")
+
+ ("/home/me/Projekty/Haskell/gtksandbox/" (23717 62210 800241 940000) "calculator.glade" "Setup.hs" "README.md" "LICENSE" "./" "../" ".git/" "package.yaml" ".gitignore" "calculator.glade~" "src/" "test.ui" "stack.yaml" ".stack-work/" "gtksandbox.cabal" "app/" "ChangeLog.md" "test/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
